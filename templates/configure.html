@@ -1,0 +1,49 @@
+
+<body>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<h1>Configuration</h1>
+<p>Configure the settings for the Google Calendar Event Creator.</p>
+<form action="/save_configuration" method="post">
+<div class="form-group">
+<label for="calendar_id">Target Calendar:</label>
+<input type="text" class="form-control" id="calendar_id" name="calendar_id" required>
+</div>
+<div class="form-group">
+<label for="summary_column">Summary Column:</label>
+<input type="text" class="form-control" id="summary_column" name="summary_column" required>
+</div>
+<div class="form-group">
+<label for="start_date_column">Start Date Column:</label>
+<input type="text" class="form-control" id="start_date_column" name="start_date_column" required>
+</div>
+<div class="form-group">
+<label for="start_time_column">Start Time Column:</label>
+<input type="text" class="form-control" id="start_time_column" name="start_time_column" required>
+</div>
+<div class="form-group">
+<label for="end_date_column">End Date Column:</label>
+<input type="text" class="form-control" id="end_date_column" name="end_date_column" required>
+</div>
+<div class="form-group">
+<label for="end_time_column">End Time Column:</label>
+<input type="text" class="form-control" id="end_time_column" name="end_time_column" required>
+</div>
+<div class="form-group">
+<label for="description_column">Description Column:</label>
+<input type="text" class="form-control" id="description_column" name="description_column" required>
+</div>
+<div class="form-group">
+<label for="location_column">Location Column:</label>
+<input type="text" class="form-control" id="location_column" name="location_column" required>
+</div>
+<div class="form-group">
+<button type="submit" class="btn btn-primary">Save</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</body>
+
